@@ -149,6 +149,7 @@
         self.locationManager.distanceFilter = 10;
         self.locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers;
     }
+  self.locationManager.distanceFilter = kCLDistanceFilterNone;
 }
 
 - (void)_stopLocation
